@@ -18,7 +18,22 @@
             <img src="BrunoBuarque.JPG" alt="Foto de Bruno na Praia em baixo de um Píer.">
         </section>
 
+        <section id="contact-form">
+            <h1>Formulário de Contato</h1>
         
+            <form action="enviar_email.php" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
 
     
     </main>

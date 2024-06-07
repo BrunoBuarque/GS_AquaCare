@@ -23,9 +23,14 @@ header h1 {
     font-size: 2em;
 }
 
+/* Estilo Body */
+body {
+    background-color: #d5e8f9;
+}
+
 /* Estilo Main */
 main {
-    padding: 20px;
+    padding: 20px 500px;;
 }
 
 /* Estilo Sections */
@@ -33,7 +38,14 @@ section {
     margin-bottom: 30px;
 }
 
-/* Centralizar Começo */
+.colored-section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Centralizar */
 #about,
 #location,
 #member-info,

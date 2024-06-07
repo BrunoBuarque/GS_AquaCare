@@ -52,26 +52,14 @@ section {
 #contact,
 #image,
 #contact-form,
-.water-quality-heading,
-.clarification-heading,
+.blue-heading,
 .bacteria,
 .experience {
     text-align: center;
 }
 
-/* Margem automática */
-#about p,
-#location p,
-#location h3,
-#member-info p {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
 /* Azul Títulos */
-.water-quality-heading,
-.location-heading,
-.clarification-heading,
+.blue-heading,
 #member-info h2,
 #contact-form h1 {
     color: #3498db;
@@ -80,7 +68,7 @@ section {
 
 /* Azul Textos */
 .bacteria,
-.blue{
+.blue {
     color: #3498db;
 }
 
@@ -166,3 +154,19 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Media queries para design responsivo */
+
+/* TV */
+@media only screen and (min-width: 1200px) {
+    main {
+        padding: 20px 100px;
+    }
+
+    .colored-section {
+        padding: 20px 200px;
+    }
+
+    form input[type="submit"] {
+        padding: 14px 24px;
+    }
+}

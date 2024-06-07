@@ -204,3 +204,47 @@ footer a:hover {
         padding: 12px 20px;
     }
 }
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .colored-section {
+        padding: 15px;
+    }
+
+    form input[type="submit"] {
+        padding: 12px 20px;
+    }
+}
+
+/* Celular */
+@media only screen and (max-width: 767px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .colored-section {
+        padding: 10px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+    }
+
+    form input[type="submit"] {
+        padding: 10px;
+    }
+}

@@ -35,9 +35,12 @@
         </section>
 
         <section id="contact" class="colored-section">
-            <p><strong class="blue">E-mail: </strong><a href="mailto:b_buarque@outlook.com">b_buarque@outlook.com</a></p>
-            <p><strong class="blue">Instagram: </strong><a href="https://www.instagram.com/bruninhobuarque/">@bruninhobuarque</a></p>
-            <p><strong class="blue">YouTube: </strong><a href="https://www.youtube.com/channel/UCSI_S2K0bcwFxE-4RbKDGEA">Projeto AquaBlue</a></p>
+            <p><strong class="blue">E-mail: </strong><a href="mailto:b_buarque@outlook.com" 
+                aria-label="Enviar e-mail para b_buarque@outlook.com" tabindex="0">b_buarque@outlook.com</a></p>
+            <p><strong class="blue">Instagram: </strong><a href="https://www.instagram.com/bruninhobuarque/" 
+                aria-label="Visitar o perfil de @bruninhobuarque no Instagram" tabindex="0">@bruninhobuarque</a></p>
+            <p><strong class="blue">YouTube: </strong><a href="https://www.youtube.com/channel/UCSI_S2K0bcwFxE-4RbKDGEA" 
+                aria-label="Visitar o canal Projeto AquaBlue no YouTube" tabindex="0">Projeto AquaBlue</a></p>
         </section>
 
         <section id="contact-form" class="colored-section">
@@ -46,15 +49,15 @@
             <form action="enviar_email.php" method="post">
 
                 <label for="nome"><strong class="blue">Nome:</strong></label><br>
-                <input type="text" id="nome" name="nome" required><br><br>
+                <input type="text" id="nome" name="nome" required aria-label="Campo de nome" tabindex="0"><br><br>
         
                 <label for="email"><strong class="blue">Email:</strong></label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" required aria-label="Campo de e-mail" tabindex="0"><br><br>
         
                 <label for="mensagem"><strong class="blue">Mensagem:</strong></label><br>
-                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required aria-label="Campo de mensagem" tabindex="0"></textarea><br><br>
         
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" aria-label="Botão de enviar" tabindex="0">
 
             </form>
 

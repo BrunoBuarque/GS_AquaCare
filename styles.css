@@ -35,7 +35,9 @@ section {
 
 /* Centralizar Começo */
 #about,
-#location {
+#location,
+#member-info,
+#contact-form {
     text-align: center;
 }
 
@@ -47,11 +49,12 @@ section {
 }
 
 /* Margem automática */
-.water-quality-heading,
-.location-heading,
-#clarification-heading {
-    color: #3498db;
-    font-size: 1.5em;
+#about p,
+#location p,
+#location h3,
+#member-info p {
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 /* Estilos li */
@@ -70,6 +73,38 @@ li::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+/* Estilo Formulário de Contato */
+form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
 }
 
 /* Estilo Footer */

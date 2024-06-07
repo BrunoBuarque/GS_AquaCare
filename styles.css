@@ -41,13 +41,6 @@ section {
     text-align: center;
 }
 
-#about p,
-#location p,
-#location h3 {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
 /* Margem automática */
 #about p,
 #location p,
@@ -55,6 +48,16 @@ section {
 #member-info p {
     margin: 0 auto;
     max-width: 600px;
+}
+
+/* Estilos de cabeçalhos específicos */
+.water-quality-heading,
+.location-heading,
+#clarification-heading,
+#member-info h2,
+#contact-form h1 {
+    color: #3498db;
+    font-size: 1.5em;
 }
 
 /* Estilos li */
@@ -122,10 +125,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-
-ul {
-    list-style: none;
-    padding-left: 0;
 }

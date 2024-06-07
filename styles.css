@@ -1,0 +1,96 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo Cabeçalho */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Estilo Main */
+main {
+    padding: 20px;
+}
+
+/* Estilo Sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Centralizar Começo */
+#about,
+#location {
+    text-align: center;
+}
+
+#about p,
+#location p,
+#location h3 {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Margem automática */
+.water-quality-heading,
+.location-heading,
+#clarification-heading {
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+/* Estilos li */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "\2022";
+    color: #000000;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Estilo Footer */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}

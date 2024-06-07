@@ -39,10 +39,10 @@ section {
 }
 
 .colored-section {
+    padding: 20px 50px;
     background-color: #ecf0f1;
-    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Centralizar */
@@ -51,7 +51,11 @@ section {
 #member-info,
 #contact,
 #image,
-#contact-form {
+#contact-form,
+.water-quality-heading,
+.clarification-heading,
+.bacteria,
+.experience {
     text-align: center;
 }
 
@@ -64,17 +68,23 @@ section {
     max-width: 600px;
 }
 
-/* Estilos de cabeçalhos específicos */
+/* Azul Títulos */
 .water-quality-heading,
 .location-heading,
-#clarification-heading,
+.clarification-heading,
 #member-info h2,
 #contact-form h1 {
     color: #3498db;
     font-size: 1.5em;
 }
 
-/* Estilos li */
+/* Azul Textos */
+.bacteria,
+.blue{
+    color: #3498db;
+}
+
+/* Estilos Tópicos */
 ul {
     list-style: none;
     padding-left: 0;
@@ -90,6 +100,10 @@ li::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+.experience{
+    margin-bottom: 10px;
 }
 
 /* Estilo Formulário de Contato */

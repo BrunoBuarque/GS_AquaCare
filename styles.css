@@ -37,6 +37,8 @@ section {
 #about,
 #location,
 #member-info,
+#contact,
+#image,
 #contact-form {
     text-align: center;
 }
@@ -126,3 +128,15 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Estilo dos Links na Seção de Contato */
+#contact a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
